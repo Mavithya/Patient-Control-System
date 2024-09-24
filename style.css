@@ -1,0 +1,248 @@
+body{
+    font-family: monospace ;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+
+    
+}
+section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.home{
+    height: max-content;
+    margin: 0;
+  
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgb(39, 180, 60);
+    
+    
+}
+h1{
+    text-shadow: 2px 4px 8px black;
+    font-size: 35px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    color: white;
+    margin:0;
+    gap: 17%;
+}
+.btn{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(44, 222, 71);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid;
+    border-color: rgba(18, 197, 128, 0.849);
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 2px 5px 16px rgb(92, 92, 92);
+}
+.btn:hover{
+    background-color: rgba(8, 152, 30, 0.815);
+    color: rgb(33, 33, 33);
+    text-shadow: 2px 5px 14px rgb(207, 207, 207);
+    border-color: cadetblue;
+    border: 2px solid;
+  
+}
+.text p{
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:  50px 80px 50px 10px;
+    text-align: center;
+    margin-top: 0px; 
+    color: rgb(77, 75, 75);
+    
+}
+
+.pi{
+display: flex;
+justify-content: space-between;
+gap: 50px;
+
+
+}
+.pi img{
+    width: 500px;
+    height: 320px;
+    margin-right:20px ;
+    padding: 7px;
+    border-radius: 50%;
+    margin-top: -35px;
+    box-shadow: 2px 4px 8px black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(38, 162, 56);
+    position: fixed;
+    font-size: 18px;
+    letter-spacing: 8px;
+    gap: 50px;
+    bottom: 0;
+    z-index: 10;
+}
+.tws{
+    padding-top: 30px;
+}
+.tws table{
+    width: 85%;
+    /* margin-top: 100px;     */
+    margin-left: 7%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+  
+        
+}
+td {
+    border: 2px solid black; 
+}
+#home1{
+    background-color: rgb(243, 237, 230);
+    height: 100vh;
+    margin: 0;
+    
+}
+#form{
+    display: flex;
+    background-color: rgb(255, 250, 244);
+    justify-content:center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: max-content;
+    margin-top: 3%;
+    padding: 2%;
+    border: 2px solid black;
+    
+}
+.form label{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.form input{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.fbtn{
+    background-color: rgb(47, 198, 70);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(140, 189, 67);
+    font-size: 22px;
+    text-shadow: 0px 1px 4px black;
+    width: 90%;
+    height: 50px;
+    margin:10px 0 0 20px;
+    cursor: pointer;
+}
+.fbtn:hover{
+    background-color: rgb(56, 128, 67);
+    color: white;
+    border: 2px solid rgb(50, 49, 49);
+    text-shadow: 0px 2px 4px rgb(63, 202, 63);
+}
+.ud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(174, 115, 38); */
+    margin-top: 300px;
+    
+}
+.delete{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+  
+    
+}
+
+.delete button{
+    
+    background-color: red;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid rgb(114, 27, 27);
+    cursor: pointer;
+    transition-duration:1s;
+}
+.delete button:hover{
+    background-color: white;
+    color: red;
+    
+}
+.update{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+    
+}
+.update button{
+    
+    background-color: rgb(28, 147, 226);
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid rgb(114, 27, 27);
+    cursor: pointer;
+    transition-duration:1s;
+}
+.update button:hover{
+    background-color: white;
+    color: rgb(42, 170, 234);
+    
+}
